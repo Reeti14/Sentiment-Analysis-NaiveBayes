@@ -23,13 +23,17 @@ This project performs sentiment analysis on product reviews using Natural Langua
 ## 📁 Dataset
 - IMDb Movie Reviews Dataset (CSV Format)
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the notebook or Python script
 
 ## 🤝 Contributing
 Pull requests welcome!
+
+## 🔗 Live Demo
+[Click here to view the notebook on Google Colab](https://colab.research.google.com/drive/1Xe0fKV0T9ECjFuMOmNPP5qMj9y5EG7fw?usp=sharing)
+
 
 ## 📄 License
 MIT License
