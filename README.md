@@ -35,6 +35,8 @@ The main goal of this project is to analyze product reviews from a dataset and c
    ```bash
    pip install -r requirements.txt
 3.Run the notebook or script.
+
+
 ## 💡 Challenges & Solutions
 
 | 🧩 **Challenge**                    | ✅ **Solution**                                                                 |
@@ -42,6 +44,7 @@ The main goal of this project is to analyze product reviews from a dataset and c
 | **Handling large datasets**        | Filtered to a smaller subset for faster testing and reduced memory usage       |
 | **Noisy, unstructured review text**| Applied NLTK preprocessing: tokenization, stopword removal, and stemming       |
 | **Model overfitting on training set** | Tuned TF-IDF parameters and used Naive Bayes for simplicity and generalization |
+
 
 
 📁 **Files**
@@ -52,7 +55,8 @@ The main goal of this project is to analyze product reviews from a dataset and c
 **requirements.txt** – List of required libraries
 
 📎 **Live Demo**
-Access the Colab version: Click Here
+Access the Colab version: [Click Here](https://colab.research.google.com/drive/1Xe0fKV0T9ECjFuMOmNPP5qMj9y5EG7fw?usp=sharing)
+
 
  **Author**
 Reeti Singh
