@@ -35,24 +35,26 @@ The main goal of this project is to analyze product reviews from a dataset and c
    ```bash
    pip install -r requirements.txt
 3.Run the notebook or script.
+## 💡 Challenges & Solutions
 
-🚧 Challenges & Solutions
-Challenge	Solution
-Handling large datasets	Filtered for a smaller, manageable dataset for model testing
-Text preprocessing issues	Used NLTK for efficient cleaning, stemming, and stopword removal
-Overfitting & Bias	Tuned TF-IDF parameters and used a simple, interpretable model (Naive Bayes)
+| 🧩 **Challenge**                    | ✅ **Solution**                                                                 |
+|------------------------------------|--------------------------------------------------------------------------------|
+| **Handling large datasets**        | Filtered to a smaller subset for faster testing and reduced memory usage       |
+| **Noisy, unstructured review text**| Applied NLTK preprocessing: tokenization, stopword removal, and stemming       |
+| **Model overfitting on training set** | Tuned TF-IDF parameters and used Naive Bayes for simplicity and generalization |
 
-📁 Files
-sentiment_analysis.ipynb – Main notebook containing the implementation
 
-IMDB Dataset.csv – Review dataset (trimmed for GitHub)
+📁 **Files**
+**sentiment_analysis.ipynb** – Main notebook containing the implementation
 
-requirements.txt – List of required libraries
+**IMDB Dataset.csv** – Review dataset (trimmed for GitHub)
 
-📎 Live Demo
+**requirements.txt** – List of required libraries
+
+📎 **Live Demo**
 Access the Colab version: Click Here
 
-🙋‍♀️ Author
+ **Author**
 Reeti Singh
 BTech CSE | United Institute of Technology
 IBM Summer Internship Project – 2025
