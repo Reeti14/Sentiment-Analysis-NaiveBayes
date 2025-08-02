@@ -39,7 +39,7 @@ The main goal of this project is to analyze product reviews from a dataset and c
 
 ## 💡 Challenges & Solutions
 
-| 🧩 **Challenge**                    | ✅ **Solution**                                                                 |
+|   **Challenge**                    |   **Solution**                                                                 |
 |------------------------------------|--------------------------------------------------------------------------------|
 | **Handling large datasets**        | Filtered to a smaller subset for faster testing and reduced memory usage       |
 | **Noisy, unstructured review text**| Applied NLTK preprocessing: tokenization, stopword removal, and stemming       |
